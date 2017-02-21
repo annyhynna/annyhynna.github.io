@@ -229,9 +229,16 @@ Navigation
 	border: none;
 	outline: 0;
 }
-.navbar ul li a:hover, .navbar ul li a:focus{
+.navbar ul li a:hover{
 	color: white;
 	background: rgba(63, 63, 63, 0.2);
+	border-color: transparent;
+	border: none;
+	outline: 0;
+}
+.navbar ul li a:focus {
+	color: black;
+	background: transparent;
 	border-color: transparent;
 	border: none;
 	outline: 0;
@@ -239,7 +246,7 @@ Navigation
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero { background: url('../img/iceland.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
@@ -296,7 +303,7 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/iceland.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag { background: url('../img/london30.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #4C4F4F; font-size: 40px; text-transform: none; letter-spacing: 5px; font-family: 'Josefin Slab', serif; text-shadow: 3px 3px 3px #aaa;}
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { 
