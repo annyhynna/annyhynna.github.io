@@ -296,8 +296,8 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
-.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag { background: url('../img/iceland.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag h1 { color: #4C4F4F; font-size: 40px; text-transform: none; letter-spacing: 5px; font-family: 'Josefin Slab', serif; text-shadow: 3px 3px 3px #aaa;}
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { 
 	width: 40px; 
